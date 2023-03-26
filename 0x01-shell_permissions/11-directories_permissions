@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod ugo+rx {} \; -exec echo "Execute permission added to directory {}" -exec echo "----------------------------" -exec echo \; -prune
+chmod -R ugo+x
